@@ -1,0 +1,13 @@
+Deadlock Handling
+
+1. Which types of deadlocks are possible?
+
+Two or more processes waiting for the same resource.
+One process waiting for another process to finish.
+Multiple file-processing requests waiting for server resources.
+
+2. How can deadlocks affect user productivity?
+Deadlocks can make the system stuck or unresponsive. Files may take too long to process, requests may not complete, and users may have to retry their work.
+
+3. How can the system prevent deadlocks?
+Deadlocks can be prevented by properly managing resources, handling requests independently, and using timeouts so that a process does not wait forever.
